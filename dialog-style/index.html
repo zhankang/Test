@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Test</title>
+        <script type="text/javascript" src="../jquery/jquery-1.7.2.js"></script>
+        <script>
+        </script>
+
+        <style>
+
+            body {
+                text-align: center;
+            }
+
+            body > div {
+                border-bottom:1px dashed #ccc;
+                margin:10px 0;
+            }
+
+            div.s {
+                border-bottom:1px dashed #ccc;
+            }
+
+            div.dialog {
+                margin:10px auto;
+                width:250px;
+                height:150px;
+                display:inline-block;
+
+                font-family: sans-serif;
+                font-size: 12pt;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: normal;
+
+                color: #000000;
+                line-height: initial;
+                min-height: 14px;
+                padding: 0.5em 0.5em 0;
+                text-align: center;
+
+                text-shadow: 0 1px #FFFFFF;
+            }
+
+            div.s1 {
+                background: linear-gradient(rgba(255, 255, 255, 0), #FFFFFF 120%) repeat scroll 0 0 #E0E6EA;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                border-radius: 0.5em;
+                box-shadow: 0 0.1em 0.5em -0.3em #000000, 0 1px #FFFFFF inset;
+            }
+
+            div.s1-color1 {
+                background-color: #ffcccc;
+            }
+
+            div.s1-color2 {
+                background-color: #b5d1fe;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <a href="http://dev.w3.org/csswg/css-backgrounds/#border-radius">链接</a>
+            <div class="dialog s1">
+                文字效果
+            </div>
+            <div class="dialog s1 s1-color1">
+                文字效果
+            </div>
+            <div class="dialog s1 s1-color2">
+                文字效果
+            </div>
+        </div>
+
+        <div>
+            <a href="">链接</a>
+            <div class="dialog s1">
+                文字效果
+            </div>
+        </div>
+    </body>
+</html>
